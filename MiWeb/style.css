@@ -1,0 +1,84 @@
+body {
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(156, 156, 156);
+}
+
+#content {
+    background-color: rgb(207, 207, 207);
+    width: 50%;
+    vertical-align: middle;
+    margin: auto;
+}
+
+#content h1 {
+    padding-top: 20px;
+    margin: 0 20px 0 20px;
+}
+
+#navContent{
+    background-color: rgb(218, 218, 218);
+    width: 80%;
+    vertical-align: middle;
+    margin: auto;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#navContent ul{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+#navContent li {
+    padding: 0 20px 0 20px;
+    margin: auto;
+}
+
+#header {
+    display: flex;
+}
+
+.photoDiv {
+    width: 40%;
+    margin-top: 30px;
+}
+
+#myPhoto {
+    width: 50%;
+    margin: auto;
+    display: flex;
+}
+
+#skills {
+    margin: auto;
+    align-items: center;
+    display: flex;
+}
+
+#keySkills {
+    margin: 0 60px 45px 120px;
+}
+
+#keySkills h3{
+    margin: 20px 0 0 0;
+    
+}
+#lastSkills p {
+    font-weight: bold;
+    font-size: large;
+    padding-top: 10px;
+}
+#keySkills p{
+    margin: 0px;
+}
+
+#languages {
+    margin: 10px 0 0 60px;
+}
