@@ -1,9 +1,14 @@
 body {
     margin: 0%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: rgb(156, 156, 156);
+    background-color: aliceblue;
+}
+
+#bg-image img{
+    position: fixed;
+    z-index: -1;
+    filter: blur(1px);
+    
 }
 
 #content {
@@ -11,6 +16,7 @@ body {
     width: 50%;
     vertical-align: middle;
     margin: auto;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.521);
 }
 
 #content h1 {
@@ -25,6 +31,7 @@ body {
     margin: auto;
     font-size: larger;
     font-weight: bolder;
+    box-shadow: 0px 50px 50px rgb(0 0 0 / 100%);
 }
 
 #navContent ul{
@@ -81,4 +88,29 @@ body {
 
 #languages {
     margin: 10px 0 0 60px;
+}
+
+#bottomContainer {
+        background-color: rgb(218, 218, 218);
+        width: 55%;
+        vertical-align: middle;
+        margin: auto;
+        font-size: larger;
+        font-style: italic;
+        box-shadow: 0px 50px 50px rgb(0 0 0 / 100%);
+}
+
+#contactBottom ul{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    padding-bottom: 30px;
+    
+}
+
+#contactBottom li {
+    padding: 0 20px 0 20px;
+    margin: auto;
 }
