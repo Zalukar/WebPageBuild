@@ -144,3 +144,75 @@ body {
     font-style: oblique;
     padding: 40px 0 10px 0;
 }
+
+#contact  {
+    height: 600px;
+        width: 80%;
+        margin: auto;
+        font-size: larger;
+        font-style: italic;
+        display: grid;
+        list-style: none;
+        padding: 0%;
+}
+
+#contact p {
+    font-weight: bolder;
+    padding-top: 10px;
+    width: 100%;
+    margin: auto;
+    height: 30px;
+}
+
+#contact li {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#linkedIn {
+    grid-row: 1/1;
+    font-size: larger;
+}
+#linkedIn img {
+    height: 35px;
+    margin-right: 15px;
+}
+
+#stackOverflow {
+    grid-row: 1/2;
+    font-size: larger;
+}
+#stackOverflow img {
+    height: 35px;
+    margin-right: 15px;
+}
+
+#gitHub {
+    grid-row: 2/2;
+    font-size: larger;
+}
+#gitHub img {
+    height: 35px;
+    margin-right: 15px;
+}
+
+ #computrabajo {
+    grid-row: 2/3;
+    font-size: larger;
+ }
+ #computrabajo img {
+    height: 35px;
+    margin-right: 5px;
+ }
+
+ .contact-me {
+    font-size: larger;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 50px;
+    width: 50%;
+ }
