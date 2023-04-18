@@ -189,22 +189,13 @@ body {
 }
 
 #gitHub {
-    grid-row: 2/2;
+    grid-row: 2/3;
     font-size: larger;
 }
 #gitHub img {
     height: 35px;
     margin-right: 15px;
 }
-
- #computrabajo {
-    grid-row: 2/3;
-    font-size: larger;
- }
- #computrabajo img {
-    height: 35px;
-    margin-right: 5px;
- }
 
  .contact-me {
     font-size: larger;
@@ -216,3 +207,20 @@ body {
     padding-top: 50px;
     width: 50%;
  }
+
+ #mail img {
+    width: 35px;
+    margin-right: 10px;
+ }
+ #mail {
+    color: #5c5c5c;
+    font-size: larger;
+ }
+ 
+ a:link, a:visited, a:active {
+    text-decoration:none;
+    color: #5c5c5c;
+}
+a:hover {   
+    color: #b85656;
+}
