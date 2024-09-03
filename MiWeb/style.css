@@ -17,7 +17,7 @@ body {
 }
 
 #content {
-    background-color: rgb(207, 207, 207);
+    background-color: rgba(207, 207, 207, 0.75);
     width: 1731px;
     height: 80vh;
     padding-top: 30px;
@@ -28,12 +28,8 @@ body {
 
 }
 
-
-
 #content h1 {
-    padding-top: 20px;
     margin: 0 20px 0 20px;
-
 }
 
 #navContent{
@@ -49,6 +45,10 @@ body {
     padding: 15px;
     display: flex;
     padding-bottom: 30px;
+    font-size: 34px;
+    font-style: italic;
+    font-weight: 350;
+    color: #000;
 }
 
 #navContent li {
@@ -62,11 +62,17 @@ body {
 
 #introduction {
     display: flex;
-    margin: auto;
+    margin-left: 3%;
     background: rgba(252, 250, 250, 0.50);
     border-radius: 39px;
-    width: 92%;
+    width: 80%;
     padding: 1%;
+}
+
+#introduction p , h3 {
+    margin: 8px;
+    display: flex;
+    align-items: flex-end;
 }
 
 #exp {
@@ -79,15 +85,20 @@ body {
 }
 
 .photoDiv {
-    width: 40%;
-    margin-top: 30px;
+    display: flex;
+    position: absolute;
+    margin: 12vh 2px;
+    top: 0;
+    right: 0;
+    width: 30%;
 }
 
 #myPhoto {
-    padding: 5px 0px 10px 60px;
-    width: 54%;
+    width: 58%;
     margin: auto;
     display: flex;
+    background: rgba(17, 118, 29, 0.33);
+    border-radius: 100%;
 }
 
 #Todo {
@@ -140,15 +151,6 @@ body {
         font-size: larger;
         font-style: italic;
         box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.555);
-}
-
-#contactBottom ul{
-    margin-top: 0%;
-    margin-bottom: 0%;
-    list-style: none;
-    padding: 0px;
-    display: flex;
-    
 }
 
 #contactBottom li {
@@ -238,22 +240,13 @@ body {
 
  a:link, a:visited, a:active {
     text-decoration:none;
-    color: #5c5c5c;
+    color: #000;
 }
 a:hover {   
-    color: #b85656;
-}
-
-#calculadora {
-    display: grid;
-    grid-template-columns: repeat(4,75px);
-    grid-template-rows: 160px repeat(5,75px);
-    justify-content: center;
-    margin: 0 29vh 1px;
-    background-color: #9e3030;
-    padding: 15px;
-    border-radius: 32px;
-    box-shadow: 15px 10px 0px 5px #00000033;
+    color: #11761D;
+    text-shadow: 0px 8px 4px rgba(17, 118, 29, 0.50);
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.20);
 }
 
 button {
