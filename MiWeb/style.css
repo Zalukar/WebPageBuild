@@ -63,7 +63,7 @@ body {
 #introduction {
     display: flex;
     margin-left: 3%;
-    background: rgba(252, 250, 250, 0.50);
+    background: rgba(252, 250, 250, 0.55);
     border-radius: 39px;
     width: 80%;
     padding: 1%;
@@ -76,7 +76,7 @@ body {
 }
 
 #exp {
-    background: rgba(252, 250, 250, 0.50);
+    background: rgba(252, 250, 250, 0.55);
     margin-top: 5vh;
     border-radius: 39px;
     padding: 1%;
@@ -84,10 +84,38 @@ body {
     height: 510px;
 }
 
+#exp1 , #exp2 {
+    margin-top: 27px;
+    margin-left: 30px;
+}
+#exp2 {
+    margin-top: 50px;
+}
+
+#exp p {
+    padding-left: 2.2%;
+    font-size: 20px; 
+    font-style: normal; 
+    font-weight: 320;
+    line-height: normal;
+}
+
+#exp1 h1 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    vertical-align: middle;
+}
+
 .photoDiv {
     display: flex;
     position: absolute;
-    margin: 12vh 2px;
+    margin: 10.5vh 2px;
     top: 0;
     right: 0;
     width: 30%;
@@ -107,27 +135,49 @@ body {
 
 #skills {
     margin: 50px;
-    background: rgba(252, 250, 250, 0.50);
+    background: rgba(252, 250, 250, 0.55);
     border-radius: 39px;
     padding: 1%;
     width: 376px;
     height: 510px;
 }
 
-#keySkills h2 {
-    margin-top: 2px;
+#skills h2 {
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    vertical-align: middle;
 }
 
 #keySkills {
-    margin: 0 15%;
+    margin: 0 10%;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
 }
 
-#keySkills h3{
-    margin: 10px 0 0 0;
-}
 
+#languages p {
+    width: 100%;
+    margin: 0;
+    padding: 1.5%;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+}
 #languages {
-    width: 40%;
+    margin: 14% 9%; 
+}
+#languages h2 {
+    margin-left: 4%;
+    margin-bottom: 2%;
+    justify-content: left; 
 }
 
 #lastSkills p {
@@ -138,34 +188,6 @@ body {
 }
 #keySkills p{
     margin: 0px;
-}
-
-#languages {
-    margin: 10px 0 0 60px;
-}
-
-#bottomContainer {
-        background-color: rgb(218, 218, 218);
-        width: 100vh;
-        margin: auto;
-        font-size: larger;
-        font-style: italic;
-        box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.555);
-}
-
-#contactBottom li {
-    padding: 5px 20px 5px 20px;
-    margin: auto;
-    font-size: medium;
-}
-
-#contactBottom p {
-    padding-left: 20px;
-}
-
-.bottomColor {
-    display: flex;
-    justify-content: center;
 }
 
 #download p {
