@@ -1,6 +1,6 @@
 body {
     margin: 0%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI';
     background-color: rgb(211, 205, 200);
 
 }
@@ -8,21 +8,27 @@ body {
 #bg-image img{
     position: absolute;
     z-index: -1;
-    filter: blur(1.5px);
+    flex-shrink: 0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    filter: blur(2px);
+    height: 100vh;
     width: 100%;
-    box-shadow: currentColor;
-    -webkit-box-shadow: 0px 10px 80px 80px   rgba(61, 58, 58, 0.555);
+    object-fit: cover;
 }
 
 #content {
     background-color: rgb(207, 207, 207);
-    width: 48%;
+    width: 1731px;
+    height: 80vh;
     padding-top: 30px;
     padding-bottom: 30px;
     vertical-align: middle;
     margin: auto;
-    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.63);
+    border-radius: 0 0 24px 24px;
+
 }
+
+
 
 #content h1 {
     padding-top: 20px;
@@ -31,13 +37,9 @@ body {
 }
 
 #navContent{
-    background-color: rgb(218, 218, 218);
-    width: 65%;
-    vertical-align: middle;
-    margin: auto;
-    font-size: larger;
-    font-weight: bolder;
-    box-shadow: 0px 30px 50px rgb(0 0 0 / 100%);
+    border-radius: 0 0 30px 30px;
+    background: #D9D9D9;
+    box-shadow: 6px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 #navContent ul{
@@ -58,6 +60,24 @@ body {
     display: flex;
 }
 
+#introduction {
+    display: flex;
+    margin: auto;
+    background: rgba(252, 250, 250, 0.50);
+    border-radius: 39px;
+    width: 92%;
+    padding: 1%;
+}
+
+#exp {
+    background: rgba(252, 250, 250, 0.50);
+    margin-top: 5vh;
+    border-radius: 39px;
+    padding: 1%;
+    width: 1130px;
+    height: 510px;
+}
+
 .photoDiv {
     width: 40%;
     margin-top: 30px;
@@ -70,11 +90,17 @@ body {
     display: flex;
 }
 
+#Todo {
+    Display: flex;
+}
+
 #skills {
-    width: 100%;
-    margin: auto;
-    align-items: center;
-    display: flex;
+    margin: 50px;
+    background: rgba(252, 250, 250, 0.50);
+    border-radius: 39px;
+    padding: 1%;
+    width: 376px;
+    height: 510px;
 }
 
 #keySkills h2 {
@@ -82,7 +108,7 @@ body {
 }
 
 #keySkills {
-    margin: 0 60px 15px 120px;
+    margin: 0 15%;
 }
 
 #keySkills h3{
