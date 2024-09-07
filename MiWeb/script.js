@@ -7,7 +7,6 @@ const
 btnL.addEventListener("click",e=> moveToLeft());
 btnR.addEventListener("click",e=> moveToRight());
 
-
 function moveToRight() {
     slidersec.forEach(slide => {
         slide.style.transform = "translateX(-100%)";

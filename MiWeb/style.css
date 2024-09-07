@@ -146,11 +146,13 @@ body {
 }
 
 #myPhoto {
-    width: 58%;
+    width: 0%;
     margin: auto;
     display: flex;
     background: rgba(17, 118, 29, 0.33);
     border-radius: 100%;
+    transform: rotate(0deg);
+    transition: transform 1.7s ease-in-out, width 1.5s ease-in-out;
 }
 
 #Todo {
