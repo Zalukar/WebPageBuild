@@ -221,18 +221,16 @@ body {
 
 #contact  {
     height: 600px;
-        width: 80%;
-        margin: auto;
-        font-size: larger;
-        font-style: italic;
-        display: grid;
-        list-style: none;
-        padding: 0%;
+    width: 80%;
+    margin: 60px auto;
+    font-size: larger;
+    font-style: italic;
+    list-style: none;
+    display: flex;
 }
 
 #contact p {
     font-weight: bolder;
-    padding-top: 10px;
     width: 100%;
     margin: auto;
     height: 30px;
@@ -244,32 +242,68 @@ body {
     margin: auto;
 }
 
-#linkedIn {
-    grid-row: 1/1;
-    font-size: larger;
-}
-#linkedIn img {
-    height: 35px;
-    margin-right: 15px;
-}
-
 #stackOverflow {
-    grid-row: 1/2;
+    margin-top: 30px;
     font-size: larger;
+    background-color: #D9D9D9;
+    width: 40%;
+    height: 100%;
+    border-radius: 39px;
+    align-content: center;
 }
 #stackOverflow img {
-    height: 35px;
-    margin-right: 15px;
+    width: 50%;
 }
 
 #gitHub {
-    grid-row: 2/3;
     font-size: larger;
-    grid-column: span 2;
+    background-color: #D9D9D9;
+    width: 40%;
+    height: 100%;
+    border-radius: 39px;
+    align-content: center;
 }
+
 #gitHub img {
-    height: 35px;
-    margin-right: 5px;
+    width: 50%;
+}
+
+#linkedin {
+    font-size: larger;
+    background-color: #D9D9D9;
+    width: 30%;
+    height: 100%;
+    border-radius: 39px;
+    align-content: center;
+    margin-top: 30%;
+}
+
+#linkedin img {
+    width: 50%;
+}
+
+#whatsapp {
+    font-size: larger;
+    background-color: #D9D9D9;
+    width: 30%;
+    height: 100%;
+    border-radius: 39px;
+    align-content: center;
+}
+#whatsapp img{
+    width: 50%;
+}
+#gmail {
+    font-size: larger;
+    background-color: #D9D9D9;
+    width: 30%;
+    height: 100%;
+    border-radius: 39px;
+    align-content: center;
+}
+
+#gmail img {
+    width: 50%;
 }
 
  .contact-me {
@@ -279,7 +313,7 @@ body {
     text-align: center;
     align-items: center;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 1.2%;
     width: 50%;
  }
 
