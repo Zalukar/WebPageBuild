@@ -33,7 +33,9 @@ body {
 }
 
 .slidersel {
-    margin: auto; 
+    margin: auto;
+    transition: transform 0.3s ease-in-out; 
+
 }
 .slidersel img {
     border-radius: 39px;
@@ -47,6 +49,7 @@ body {
     border-radius: 39px;
     background: rgba(0, 0, 0, 0.60);
     display: flex;
+    overflow: hidden;
 }
 
 #content h1 {
@@ -170,7 +173,6 @@ body {
     line-height: normal;
     display: flex;
     justify-content: center;
-    display: flex;
     vertical-align: middle;
 }
 
@@ -281,12 +283,42 @@ body {
     width: 50%;
  }
 
- a:link, a:visited, a:active {
+ .btnL,
+ .btnR {
+    display: flex;
+    position: absolute;
+    top: 44%;
+    color: #D9D9D9;
+    font-size: 40px;
+    font-weight: 1000;
+    background-color: rgba(0, 0, 0, 0.57);
+    border-radius: 100%;
+    width: 3.1%;
+    height: 6.5%;
+    justify-content: center;
+    align-items: top;
+    font-style: italic;
+}
+
+.btnL:hover , .btnR:hover {
+    background-color: #11761dc2;
+}
+
+.btnL{
+    left: 15%;
+}
+
+.btnR {
+    right: 15%;
+}
+
+a:link, a:visited, a:active {
     text-decoration:none;
     color: #000;
 }
+
 a:hover {   
-    color: #11761D;
+    color: #11761d;
     text-shadow: 0px 8px 4px rgba(17, 118, 29, 0.50);
     -webkit-text-stroke-width: 1;
     -webkit-text-stroke-color: rgba(0, 0, 0, 0.20);
