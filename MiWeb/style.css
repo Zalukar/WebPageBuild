@@ -45,9 +45,9 @@ body {
 
 .slidersel {
     margin: auto;
-    transition: transform 0.3s ease-in-out; 
-
+    transition: transform 0.3s ease-in-out;
 }
+
 .slidersel img {
     border-radius: 39px;
     padding-left: 14px;
@@ -404,7 +404,7 @@ a:link, a:visited, a:active {
     color: #000;
 }
 
-a:hover {   
+#navContent a:hover {   
     color: #11761d;
     text-shadow: 0px 8px 4px rgba(17, 118, 29, 0.50);
     -webkit-text-stroke-width: 1;
@@ -415,7 +415,7 @@ a:hover {
 
 li img {
     display: block;        
-    margin: 0 auto;    
+    margin: 0 auto;
   }
   
 li span {
@@ -442,4 +442,12 @@ li {
 #gitHub,
 #stackOverflow {
     box-shadow: 0px 18px 9px 0px rgba(0, 0, 0, 0.25);
+    scale: 1;
+}
+#linkedin:hover,
+#whatsapp:hover,
+#gmail:hover,
+#gitHub:hover,
+#stackOverflow:hover {
+    text-shadow: 0px 8px 4px rgba(0, 0, 0, 0.40);
 }
