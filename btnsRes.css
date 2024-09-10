@@ -3,6 +3,7 @@
     #contact {
         flex-direction: column;
         padding: 2%;
+        height: auto;
     }
 
     #contact li {
