@@ -1,0 +1,121 @@
+@media (max-width:960px){
+
+    body, html {
+      overflow-x: hidden;
+      overflow-y: scroll;
+    }
+
+    #bg-image img{
+        position: absolute;
+        z-index: -1;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        filter: blur(2px);
+        width: 100vw;
+        height: 100vh;
+        margin-top: 0;
+        margin-bottom: -5vh;
+    }
+
+    .photoDiv {
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: auto;
+        position: relative;
+    }
+
+    #myPhoto {
+        position: absolute;
+        overflow: hidden;
+    }
+
+    #secretDiv:hover {
+        opacity: 0%;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    #Todo {
+        display: contents;
+    }
+
+    #content {
+        height: fit-content;
+        overflow: hidden;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #skills {
+        padding: 1%;
+        width: 80vw;
+        height: auto;
+        margin: auto;
+        margin-top: 12%;
+        justify-items: center;
+    }
+
+    #skills h2,
+    #skills h3,
+    #skills p {
+        font-size: 3.6vw;
+    }
+
+    #navContent{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #333;
+        top: 60px;
+        left: 0;
+    }
+
+    #header {
+        margin: auto;
+        width: 92vw;
+    }
+
+    #introduction {
+        flex-direction: column;
+        padding: 3.6%;
+        margin: auto;
+    }
+
+    #introduction h1 {
+        font-size: 4vw;
+        padding-bottom: 4%;
+        margin: auto;
+    }
+
+    #introduction h3{
+        margin: auto;
+        margin-left: 8%;
+        align-items: flex-end;
+        font-size: 2.8vw;
+    }
+
+    #introduction p {
+        margin:  auto;
+        align-items: flex-end;
+        font-size: 3vw;
+        padding: 1%;
+    }
+
+    #exp {
+        width: auto;
+        height: auto;
+        scale: 88%;
+        margin: auto;
+        margin-top: 0;
+        justify-items: center;
+    }
+
+    #exp p,
+    #exp h1,
+    #exp h2,
+    #exp h3 {
+        font-size:4vw;
+        padding: 2%;
+    }
+
+}

@@ -4,6 +4,7 @@ html {
     height: 100vh;
     width: 100vw;
 }
+
 body {
     margin: 0%;
     font-family: 'Segoe UI';
@@ -29,7 +30,7 @@ body {
 
 #content {
     background-color: rgba(207, 207, 207, 0.75);
-    width: 1731px;
+    width: 92.5vw;
     height: 80vh;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -39,29 +40,8 @@ body {
     box-shadow: 4px 8px 8px 4px rgba(0, 0, 0, 0.45);
 }
 
-#Carrusel {
-    width: 100%;
-}
-
-.slidersel {
-    margin: auto;
-    transition: transform 0.3s ease-in-out;
-}
-
-.slidersel img {
-    border-radius: 39px;
-    padding-left: 14px;
-}
-
-#containerSec {
-    margin: auto;
-    width: 950px;
-    height: 680px;
-    border-radius: 39px;
-    background: rgba(0, 0, 0, 0.60);
-    display: flex;
-    overflow: hidden;
-    box-shadow: 0px 8px 9px 0px rgba(0, 0, 0, 0.25);
+#Todo {
+    Display: flex;
 }
 
 #content h1 {
@@ -73,38 +53,6 @@ body {
     background: #D9D9D9;
     width: 100%;
     box-shadow: 4px 4px 4px 8px rgba(0, 0, 0, 0.75);
-}
-
-@media (max-width:1645px){
-
-    body {
-        overflow: visible;
-    }
-
-
-    #navContent{
-        width: fit-content;
-        border-radius: 0 0 20px 0px;
-        background: #D9D9D9;
-        box-shadow: 6px 4px 4px 0px rgba(0, 0, 0, 0.25);}
-
-    #bg-image img{
-        position: absolute;
-        z-index: -1;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-        filter: blur(2px);
-        width: 100vw;
-        height: 100vh;
-        margin-top: 0;
-        margin-bottom: -5vh;}
-
-    .photoDiv {
-        display: flex;
-        position: absolute;
-        margin: 10.5vh 2px;
-        top: 0;
-        right: 0;
-        transform: translateX(130vw) translateY(-4vh);}
 }
 
 #navContent ul{
@@ -125,320 +73,6 @@ body {
     margin: auto;
 }
 
-#header {
-    display: flex;
-}
-
-#introduction {
-    display: flex;
-    margin-left: 3%;
-    background: rgba(252, 250, 250, 0.55);
-    border-radius: 39px;
-    width: 80%;
-    padding: 1%;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15)
-}
-
-#introduction p , h3 {
-    margin: 8px;
-    display: flex;
-    align-items: flex-end;
-}
-
-#exp {
-    background: rgba(252, 250, 250, 0.55);
-    margin-top: 5vh;
-    border-radius: 39px;
-    padding: 1%;
-    width: 1130px;
-    height: 510px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15)
-}
-
-#exp1 , #exp2 {
-    margin-top: 27px;
-    margin-left: 30px;
-}
-#exp2 {
-    margin-top: 50px;
-}
-
-#exp p {
-    padding-left: 2.2%;
-    font-size: 20px; 
-    font-style: normal; 
-    font-weight: 320;
-    line-height: normal;
-}
-
-#exp1 h1 {
-    margin-top: 20px;
-    font-size: 30px;
-    font-style: italic;
-    font-weight: 700;
-    line-height: normal;
-    display: flex;
-    justify-content: center;
-    display: flex;
-    vertical-align: middle;
-}
-
-.photoDiv {
-    position: absolute;
-    margin: 10.5vh 2px;
-    top: 0;
-    right: 0;
-    width: 21%;
-}
-
-#secretDiv {
-    position: absolute;
-    top: 50%; 
-    left: 37.5%; 
-    transform: translate(-50%, -50%); 
-    color: #0000; 
-    font-size: 24px;
-    font-style: italic;
-    font-weight: 400; 
-    background-color: #0000;
-    padding: 11.2%;
-    border-radius: 100%;
-    opacity: 0;
-    width: 0;
-    height: 0;
-    align-content: center;
-    transition: opacity 0.3s ease-in-out;
-}
-
-#myPhoto {
-    width: 0%;
-    display: flex;
-    background: rgba(17, 118, 29, 0.33);
-    border-radius: 100%;
-    transform: rotate(0deg);
-    transition: transform 1.7s ease-in-out, width 1.5s ease-in-out;
-    box-shadow: 1px 3px 2px 0px rgba(0, 0, 0, 0.35);
-    overflow: hidden;
-}
-
-#Todo {
-    Display: flex;
-}
-
-#skills {
-    margin: 50px;
-    background: rgba(252, 250, 250, 0.55);
-    border-radius: 39px;
-    padding: 1%;
-    width: 376px;
-    height: 510px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15)
-}
-
-#skills h2 {
-    font-size: 26px;
-    font-style: italic;
-    font-weight: 700;
-    line-height: normal;
-    display: flex;
-    justify-content: center;
-    vertical-align: middle;
-}
-
-#keySkills {
-    margin: 0 10%;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 350;
-    line-height: normal;
-}
-
-#languages p {
-    width: 100%;
-    margin: 0;
-    padding: 1.5%;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 350;
-    line-height: normal;
-}
-#languages {
-    margin: 14% 9%; 
-}
-#languages h2 {
-    margin-left: 4%;
-    margin-bottom: 2%;
-    justify-content: left; 
-}
-
-#lastSkills p {
-    font-weight: bold;
-    font-size: large;
-    padding-top: 8px;
-    padding-bottom: 5px;
-}
-#keySkills p{
-    margin: 0px;
-}
-
-#download p {
-    font-weight: bolder;
-    font-style: oblique;
-    padding: 40px 0 10px 0;
-}
-
-#contact  {
-    height: 600px;
-    width: 80%;
-    margin: 60px auto;
-    font-size: larger;
-    font-style: italic;
-    list-style: none;
-    display: flex;
-}
-
-#contact p {
-    font-weight: bolder;
-    width: 100%;
-    margin: auto;
-    height: 30px;
-}
-
-#contact li {
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-
-#stackOverflow {
-    margin-top: 30px;
-    font-size: larger;
-    background-color: #D9D9D9;
-    width: 40%;
-    height: 100%;
-    border-radius: 39px;
-    align-content: center;
-}
-#stackOverflow img {
-    width: 50%;
-    border-radius: 12px;
-}
-
-#gitHub {
-    font-size: larger;
-    background-color: #D9D9D9;
-    width: 40%;
-    height: 100%;
-    border-radius: 39px;
-    align-content: center;
-}
-
-#gitHub img {
-    width: 50%;
-}
-
-#linkedin {
-    font-size: larger;
-    background-color: #D9D9D9;
-    width: 30%;
-    height: 100%;
-    border-radius: 39px;
-    align-content: center;
-    margin-top: 30%;
-}
-
-#linkedin img {
-    width: 50%;
-}
-
-#whatsapp {
-    font-size: larger;
-    background-color: #D9D9D9;
-    width: 30%;
-    height: 100%;
-    border-radius: 39px;
-    align-content: center;
-}
-#whatsapp img{
-    width: 50%;
-}
-#gmail {
-    font-size: larger;
-    background-color: #D9D9D9;
-    width: 30%;
-    height: 100%;
-    border-radius: 39px;
-    align-content: center;
-}
-
-#gmail img {
-    width: 50%;
-}
-
- .contact-me {
-    font-size: larger;
-    font-weight: bolder;
-    font-style: italic;
-    text-align: center;
-    align-items: center;
-    margin: auto;
-    padding-top: 1.2%;
-    width: 50%;
- }
-
- .btnL,
- .btnR {
-    display: flex;
-    position: absolute;
-    top: 44%;
-    color: #D9D9D9;
-    font-size: 40px;
-    font-weight: 1000;
-    background-color: rgba(0, 0, 0, 0.57);
-    border-radius: 100%;
-    width: 3.1%;
-    height: 6.5%;
-    justify-content: center;
-    align-items: top;
-    font-style: italic;
-    transition: scale 0.1s ease-in-out;
-}
-
-.btnL:hover , .btnR:hover {
-    background-color: #11761dc2;
-    scale: 1.15;
-    transition: scale 0.1s ease-in-out;
-}
-
-.btnL{
-    left: 15%;
-    box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.25);
-}
-
-.btnR {
-    right: 15%;
-    box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.25);
-}
-
-a:link, a:visited, a:active {
-    text-decoration:none;
-    color: #000;
-}
-
-#navContent a:hover {   
-    color: #11761d;
-    text-shadow: 0px 8px 4px rgba(17, 118, 29, 0.50);
-    -webkit-text-stroke-width: 1;
-    -webkit-text-stroke-color: rgba(0, 0, 0, 0.20);
-    font-weight: 400;
-    transition: transform 1s ease-in-out;
-}
-
-li img {
-    display: block;        
-    margin: 0 auto;
-  }
-  
 li span {
     display: block;        
     margin-top: 30px;
@@ -457,26 +91,16 @@ li {
     text-align: center;    
 }
 
-#secretDiv:hover {
-    opacity: 100;
-    transition: opacity 0.3s ease-in-out;
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: #000;
 }
 
-#linkedin,
-#whatsapp,
-#gmail,
-#gitHub,
-#stackOverflow {
-    box-shadow: 0px 18px 9px 0px rgba(0, 0, 0, 0.25);
-    transition: transform 0.1s ease-in-out;
-    scale: 1;
-}
-
-#linkedin:hover,
-#whatsapp:hover,
-#gmail:hover,
-#gitHub:hover,
-#stackOverflow:hover {
-    text-shadow: 0px 8px 4px rgba(0, 0, 0, 0.40);
-    transition: transform 0.3s ease-in-out;
+#navContent a:hover {   
+    color: #11761d;
+    text-shadow: 0px 8px 4px rgba(17, 118, 29, 0.50);
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.20);
+    font-weight: 400;
+    transition: transform 1s ease-in-out;
 }
