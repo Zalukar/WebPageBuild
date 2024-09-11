@@ -12,7 +12,7 @@
 }
 
 #contact  {
-    height: 600px;
+    height: 60vh;
     width: 80%;
     margin: 60px auto;
     font-size: larger;
@@ -32,14 +32,17 @@
     justify-content: center;
     align-items: center;
     margin: auto;
+    margin-bottom: 20vh;
+    padding: 3%;
+    padding-top: 8%;
+    padding-bottom: 11%;
+    width: 20vw;
 }
 
 #stackOverflow {
     margin-top: 30px;
     font-size: larger;
     background-color: #D9D9D9;
-    width: 40%;
-    height: 100%;
     border-radius: 39px;
     align-content: center;
 }
@@ -47,18 +50,16 @@
 #gitHub {
     font-size: larger;
     background-color: #D9D9D9;
-    width: 40%;
-    height: 100%;
     border-radius: 39px;
     align-content: center;
 }
 
 #stackOverflow img {
-    width: 50%;
+    width: 9vw;
     border-radius: 12px;
 }
 
 #gitHub img {
-    width: 50%;
+    width: 10vw;
 }
 

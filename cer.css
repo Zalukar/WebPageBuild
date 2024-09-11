@@ -1,3 +1,7 @@
+#content {
+    height: fit-content;
+}
+
 #Carrusel {
     width: 100%;
 }
@@ -9,13 +13,16 @@
 
 .slidersel img {
     border-radius: 39px;
-    padding-left: 14px;
+    width: 48vw;
+    height: auto    ;
+    padding: 1vw;
 }
 
 #containerSec {
     margin: auto;
-    width: 950px;
-    height: 680px;
+    margin-bottom: 4vh;
+    width: 50vw;
+    height: fit-content;
     border-radius: 39px;
     background: rgba(0, 0, 0, 0.60);
     display: flex;
