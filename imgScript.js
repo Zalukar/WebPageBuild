@@ -4,9 +4,6 @@ const img = document.getElementById("myPhoto"),
 window.onload = function() {
 
     setTimeout(() => {
-      img.style.width = '18vw';
-    }, 180);
-    setTimeout(() => {
       secretDiv.style.width = '24vh'
       secretDiv.style.height = '24vh'
       secretDiv.style.color = '#ffffffde'
@@ -16,4 +13,27 @@ window.onload = function() {
       img.style.transform = 'rotate(540deg)';
     }, 120);
 
+    adjustImageSize();
+  };
+
+  window.addEventListener('resize',function() {
+    adjustImageSize();
+  });
+
+function adjustImageSize() {
+  if (window.matchMedia('(max-width: 960px)').matches) {
+    setTimeout(() => {
+      img.style.width = '22vw'; 
+      }, 180);
   }
+  else if (window.matchMedia('(min-width: 961px) and (max-width: 1843px)').matches) {
+    setTimeout(() => {
+      img.style.width = '15vw';
+      }, 180);
+  }
+  else if (window.matchMedia('(min-width: 1843px) and (max-width: 1866px)').matches) {
+    setTimeout(() => {
+      img.style.width = '18vw';
+      }, 180);
+  }
+}

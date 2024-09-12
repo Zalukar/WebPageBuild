@@ -2,7 +2,7 @@
 
     .photoDiv {
         top: 0%;
-        left: 50%;
+        left: 40%;
         transform: translate(-50%, -50%);
         margin: auto;
         position: relative;
@@ -82,4 +82,11 @@
         padding: 2%;
     }
 
+}
+
+@media (min-width: 961px) and (max-width: 1843px) { 
+    .photoDiv {
+        top: 60px;
+        right: -3vw;
+    }
 }
