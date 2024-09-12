@@ -5,7 +5,7 @@ window.onload = function() {
 
     setTimeout(() => {
       secretDiv.style.color = '#ffffffde'
-      secretDiv.style.backgroundColor = '#00000070'
+
     }, 1500);
     setTimeout(() => {
       img.style.transform = 'rotate(540deg)';
@@ -16,6 +16,25 @@ window.onload = function() {
 
   window.addEventListener('resize',function() {
     adjustImageSize();
+  });
+
+  img.addEventListener('mouseover',()=>{
+    img.style.filter = 'blur(1.8px) grayscale(50%)'
+    secretDiv.style.opacity = "1"
+  });
+  img.addEventListener('mouseout',()=>{
+    secretDiv.style.opacity = "0"
+    img.style.filter = 'blur(0) grayscale(0)'
+  });
+
+  secretDiv.addEventListener('mouseover',()=>{
+    secretDiv.style.opacity = "1"
+    img.style.filter = 'blur(1.8px) grayscale(50%)'
+  });
+
+  secretDiv.addEventListener('mouseout',()=>{
+    secretDiv.style.opacity = "0"
+    img.style.filter = 'blur(0) grayscale(0)'
   });
 
 function adjustImageSize() {

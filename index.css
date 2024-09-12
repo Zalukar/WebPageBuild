@@ -53,18 +53,14 @@
     top: 50%; 
     left: 37.5%; 
     transform: translate(-44%, -50%); 
-    color: #0000; 
     font-size: 24px;
     font-style: italic;
     font-weight: 400; 
-    background-color: #0000;
-    padding: 11.2%;
-    border-radius: 100%;
     opacity: 0;
-    width: 0;
-    height: 0;
     align-content: center;
     transition: opacity 0.3s ease-in-out;
+    z-index: 1;
+    color: #fff;
 }
 
 #myPhoto {
@@ -189,7 +185,6 @@
     vertical-align: middle;
 }
 
-#secretDiv:hover {
-    opacity: 100;
-    transition: opacity 0.3s ease-in-out;
+#myPhoto:hover {
+    transition: filter 0.1s ease-in-out;
 }
