@@ -4,8 +4,6 @@ const img = document.getElementById("myPhoto"),
 window.onload = function() {
 
     setTimeout(() => {
-      secretDiv.style.width = '24vh'
-      secretDiv.style.height = '24vh'
       secretDiv.style.color = '#ffffffde'
       secretDiv.style.backgroundColor = '#00000070'
     }, 1500);
@@ -23,7 +21,7 @@ window.onload = function() {
 function adjustImageSize() {
   if (window.matchMedia('(max-width: 960px)').matches) {
     setTimeout(() => {
-      img.style.width = '22vw'; 
+      img.style.width = '22vw';
       }, 180);
   }
   else if (window.matchMedia('(min-width: 961px) and (max-width: 1843px)').matches) {

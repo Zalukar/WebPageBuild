@@ -69,7 +69,6 @@
 
 #myPhoto {
     width: 0%;
-    display: flex;
     background: rgba(17, 118, 29, 0.33);
     border-radius: 100%;
     transform: rotate(0deg);
