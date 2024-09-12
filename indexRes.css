@@ -16,6 +16,11 @@
         transition: opacity 0.3s ease-in-out;
     }
 
+    #secretDiv {
+        transform: translate(0, 0); 
+        font-size: 3.5vw;
+    }
+
     #Todo {
         display: contents;
     }
