@@ -50,7 +50,7 @@ function adjustImageSize() {
   }
   else if (window.matchMedia('(min-width: 1843px) and (max-width: 1866px)').matches) {
     setTimeout(() => {
-      img.style.width = '18vw';
+      img.style.width = '16vw';
       }, 180);
   }
 }
