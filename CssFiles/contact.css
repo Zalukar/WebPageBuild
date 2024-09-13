@@ -13,7 +13,7 @@
 
 #contact  {
     height: 60vh;
-    width: 80%;
+    width: 50%;
     margin: 60px auto;
     font-size: larger;
     font-style: italic;
@@ -34,9 +34,9 @@
     margin: auto;
     margin-bottom: 20vh;
     padding: 3%;
-    padding-top: 8%;
-    padding-bottom: 11%;
-    width: 20vw;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 15vw;
 }
 
 #stackOverflow {
