@@ -11,8 +11,8 @@
     transition: transform 0.3s ease-in-out;
 }
 
-#contact  {
-    height: 60vh;
+#contact {
+    height: 48vh;
     width: 50%;
     margin: 60px auto;
     font-size: larger;
@@ -32,8 +32,7 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-bottom: 20vh;
-    padding: 3%;
+    margin-bottom: 8vh;
     padding-top: 3%;
     padding-bottom: 3%;
     width: 15vw;
