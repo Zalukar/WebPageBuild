@@ -14,6 +14,7 @@ const
 linkedin.addEventListener("mouseover", () => {
         linkedin.style.transform = "scale(1.15)";
         linkedin.style.backgroundColor = "#1a6b23db";
+        linkedin.style.cursor = "pointer"
         fontColorLink.style.color = "#D9D9D9";
         imgLinked.style.filter = "invert(100%)"
     });
@@ -28,6 +29,7 @@ linkedin.addEventListener("mouseout", () => {
 whatsapp.addEventListener("mouseover", () => {
         whatsapp.style.transform = "scale(1.15)";
         whatsapp.style.backgroundColor = "#1a6b23db";
+        whatsapp.style.cursor = "pointer"
         fontColorWhats.style.color = "#D9D9D9";
         imgWhats.style.filter = "invert(100%)"
     });
@@ -43,6 +45,7 @@ whatsapp.addEventListener("mouseout", () => {
 gmail.addEventListener("mouseover", () => {
         gmail.style.transform = "scale(1.15)";
         gmail.style.backgroundColor = "#1a6b23db";
+        gmail.style.cursor = "pointer"
         fontColorGmail.style.color = "#D9D9D9";
         imgGmail.style.filter = "invert(100%)"
     });
@@ -54,3 +57,16 @@ gmail.addEventListener("mouseout", () => {
         imgGmail.style.filter = "invert(0%)"
 
     });
+
+linkedin.addEventListener('click',function(){
+    window.location.href = 'https://www.linkedin.com/in/victor-m-ardila/';
+
+})
+whatsapp.addEventListener('click',function(){
+    window.location.href = 'https://wa.link/g6owbr';
+
+})
+gmail.addEventListener('click',function(){
+    window.location.href = 'mailto:victor.ardila0205@gmail.com';
+
+})

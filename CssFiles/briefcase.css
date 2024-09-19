@@ -15,7 +15,6 @@
 
 #contact  {
     height: fit-content;
-    width: 80%;
     margin: 10vh auto;
     font-size: larger;
     font-style: italic;
@@ -31,13 +30,12 @@
 }
 
 #contact li {
-    justify-content: center;
-    align-items: center;
     margin: auto;
     margin-bottom: 8vh;
     padding-top: 3%;
     padding-bottom: 3%;
-    width: 15vw;
+    width: 20vw;
+    height: 40vh;
 }
 
 #linkedin {

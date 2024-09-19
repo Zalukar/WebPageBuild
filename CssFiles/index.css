@@ -1,3 +1,7 @@
+#content {
+    height: fit-content;
+}
+
 #introduction {
     display: flex;
     margin-left: 3%;

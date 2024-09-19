@@ -48,7 +48,7 @@ function adjustImageSize() {
       img.style.width = '15vw';
       }, 180);
   }
-  else if (window.matchMedia('(min-width: 1843px) and (max-width: 1866px)').matches) {
+  else if (window.matchMedia('(min-width: 1843px)').matches) {
     setTimeout(() => {
       img.style.width = '16vw';
       }, 180);

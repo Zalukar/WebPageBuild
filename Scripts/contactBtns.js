@@ -9,6 +9,7 @@ const
 linkedin.addEventListener("mouseover", () => {
         linkedin.style.transform = "scale(1.15)";
         linkedin.style.backgroundColor = "#1a6b23db";
+        linkedin.style.cursor = 'pointer'
         fontColorGit.style.color = "#D9D9D9";
     });
     
@@ -21,6 +22,7 @@ linkedin.addEventListener("mouseout", () => {
 gitHub.addEventListener("mouseover", () => {
         gitHub.style.transform = "scale(1.15)";
         gitHub.style.backgroundColor = "#1a6b23db";
+        gitHub.style.cursor = 'pointer'
         fontColorStack.style.color = "#D9D9D9";
         imgGit.style.filter = "invert(100%)"
     });
@@ -32,3 +34,12 @@ gitHub.addEventListener("mouseout", () => {
         imgGit.style.filter = "invert(0%)"
 
     });
+
+linkedin.addEventListener('click',function(){
+    window.location.href = 'https://stackoverflow.com/users/20536708/manuel-ardila';
+    
+})
+gitHub.addEventListener('click',function(){
+    window.location.href = 'https://github.com/Zalukar';
+    
+})
