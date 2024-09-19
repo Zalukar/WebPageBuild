@@ -36,9 +36,10 @@ gitHub.addEventListener("mouseout", () => {
     });
 
 curriculum.addEventListener('click',function(){
-    window.location.href = 'https://stackoverflow.com/users/20536708/manuel-ardila';
+    window.location.href = 'files/HojaDeVidaESP.pdf';
     
 })
+
 gitHub.addEventListener('click',function(){
     window.location.href = 'https://github.com/Zalukar';
     
